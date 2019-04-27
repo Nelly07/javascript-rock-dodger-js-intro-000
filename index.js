@@ -133,7 +133,7 @@ function endGame() {
   alert("YOU LOSE!");
 }
 
-
+function moveDodger(e) {
   // implement me!
   /**
    * This function should call `moveDodgerLeft()`
@@ -146,7 +146,7 @@ function endGame() {
 
 
 
-
+}
 
 function moveDodgerLeft() {
   // implement me!
