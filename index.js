@@ -180,7 +180,7 @@ function moveDodgerRight() {
    var left=positionToInteger(DODGER.style.left);
    if (left>0){
     DODGER.style.left = `${left+4}px`;
-    window.requestAnimationFrame(moveDodgerLeft);
+    window.requestAnimationFrame(moveDodgerRight);
 }
 }
 
